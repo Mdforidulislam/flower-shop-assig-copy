@@ -1,70 +1,68 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
-    padding: 0px;
-    margin: 0px;
-}
-.container-maange{
-    padding:50px 240px 0px 240px;
-}
-
-/* Banner section design */
-.banner-main{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container-maange {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  /* Banner section design */
+  .banner-main {
     background-color: rgba(229, 84, 115, 0.10);
-    width: 1920px;
+    width: 100%;
     height: 850px;
-    flex-shrink: 0;
-    
-}
-.banner-container{
+  }
+  
+  .banner-container {
     display: flex;
     justify-content: space-around;
-    gap:100px;
-    padding:50px 240px 0px 240px;
+    gap: 100px;
+    padding: 50px 0;
     align-items: center;
-}
-.banner-title{
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+  
+  .banner-title {
     color: #272727;
-    font-size: 80px;
-    font-style: normal;
+    font-size: 40px;
     font-weight: 800;
-    line-height: normal;
-}
-.banner-description{
+  }
+  
+  .banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
-}
-.btn-primary{
+    max-width: 500px;
+  }
+  
+  .btn-primary {
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     padding: 20px 43px;
-    color: #FFF;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
-    border:none;
-
-}
-.banner-text-style{
+    border: none;
+  }
+  
+  .banner-text-style,
+  .hot-deal-color {
     color: #e55473;
-}
-/* main section container maintance  */
-main{
-    width: 1920px;
-    height: 850px;
-}
-
-/* our features section design */
-
-.our-features-container{
-
-}
+  }
+  
+  /* our features section design */
 .our-features-tile {
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-weight: 800;  
+    font-weight: 800; 
+    padding-top: 40px; 
 }
 .our-features-description{
     width: 594px;
@@ -89,10 +87,16 @@ main{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     flex-shrink: 0;
-    padding:110px 78px 0px 78px;
+    padding:110px 50px 0px 50px;
     display: flex;
     align-items: end;
     justify-content: center;
+}
+.our-features-flo-2{
+    background-color: #d9eff1;
+}
+.our-features-flo-3{
+    background-color: #e3ebdb;
 }
 .our-feature-img {
     width: 310px;
@@ -107,3 +111,174 @@ main{
     line-height: 35px;
     text-decoration: underline;
 }
+  /* Flower delivery section design */
+  .flower-delivery-main {
+    padding: 100px 0;
+  }
+  
+  .delivery-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+  }
+  
+  .delivery-info-1,
+  .delivery-info-2,
+  .delivery-info-3 {
+    text-align: center;
+  }
+  
+  .delivery-flower-image {
+    width: 88px;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+  
+  .delivery-flower-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  
+  /* Hot deal section design */
+  .hot-deal-main {
+    background-color: #fef6f8;
+  }
+  
+  .hot-deal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+  }
+  
+  .hot-deal-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  
+  .hot-deal-info {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 500px;
+  }
+  
+  /* Instagram section design */
+  .instragram-img-section{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  .instragram-main {
+    padding: 100px 0;
+  }
+  
+  .instragram-container {
+    max-width: 1200px;
+    margin: 40px 0px;
+  }
+  
+  .instragram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .instragram-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 500px;
+    margin: auto;
+  }
+  .instragram-images img {
+    width: 297px;
+    height: auto;
+}
+  /* Suscription section design */
+  .suscription-main {
+    background-image: url(./images/Rectangle%209.png);
+    background-position: center;
+    background-size: cover;
+    padding: 122px 287px;
+    margin-top: 119px;
+  }
+  
+  .suscription-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  .suscription-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .suscription-email {
+    display: flex;
+    margin-top: 49px;
+    gap: 16px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .suscription-email input[type="email"] {
+    border-radius: 8px;
+    background: #fff;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    padding: 22px;
+    margin-top: 0px;
+    padding: 1px 0px 1px 22px;
+    border: none;
+  }
+  
+  /* Footer Customization */
+  .footer-main {
+    background-color: #272727;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-copy-right {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
